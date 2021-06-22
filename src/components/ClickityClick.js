@@ -25,4 +25,12 @@ class ClickityClick extends React.Component {
   }
 }
  
-export default 
+export default ClickityClick;
+ 
+// src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+ 
+import ClickityClick from './components/ClickityClick';
+ 
+ReactDOM.render(<ClickityClick />, document.getElementById('root'));
